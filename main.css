@@ -23,10 +23,14 @@ footer {
 
 main {
     width: 512px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #size-selector {
   display: flex;
+  width: 100%;
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
@@ -37,4 +41,14 @@ main {
     width: 512px;
     background-color: white;
     margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#reset-button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    margin-top: 3rem;
+    height: 2rem;
+    width: 10rem;
 }

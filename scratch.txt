@@ -1,0 +1,9 @@
+SQUARE RENDERING
+- Radio buttons control number of divs rendered to pallette (e.g. 32 => 32 x 32 squares)
+- Defaults to 32
+- Upon content load, populate with default number of squares
+- Upon button select, redraw "clean" grid
+
+SQUARE INTERACTION
+- On mouseover, "highlight" a square - and keep highlighted
+- So as you're "drawing", it's adding a highlighted class to the squares
